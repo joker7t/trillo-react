@@ -118,31 +118,32 @@ function App() {
               Hotel Las Palmas
                     </h1>
 
-            <div className="overview__stars">
-              <svg className="overview__icon-star">
-                <Star />
-              </svg>
-              <svg className="overview__icon-star">
-                <Star />
-              </svg>
-              <svg className="overview__icon-star">
-                <Star />
-              </svg>
-              <svg className="overview__icon-star">
-                <Star />
-              </svg>
-              <svg className="overview__icon-star">
-                <Star />
-              </svg>
-            </div>
+            <div className='overview__secondary-container'>
+              <div className="overview__stars">
+                <svg className="overview__icon-star">
+                  <Star />
+                </svg>
+                <svg className="overview__icon-star">
+                  <Star />
+                </svg>
+                <svg className="overview__icon-star">
+                  <Star />
+                </svg>
+                <svg className="overview__icon-star">
+                  <Star />
+                </svg>
+                <svg className="overview__icon-star">
+                  <Star />
+                </svg>
+              </div>
 
-            <div className="overview__location">
-              <svg className="overview__icon-location">
-                <LocationPin />
-              </svg>
-              <button className="btn-inline">Albufeira, Portugal</button>
+              <div className="overview__location">
+                <svg className="overview__icon-location">
+                  <LocationPin />
+                </svg>
+                <button className="btn-inline">Albufeira, Portugal</button>
+              </div>
             </div>
-
             <div className="overview__rating">
               <div className="overview__rating-average">8.6</div>
               <div className="overview__rating-count">429 votes</div>
@@ -193,7 +194,7 @@ function App() {
                   <img src={User1} alt="User 1" className="review__photo" />
                   <div className="review__user-box">
                     <p className="review__user-name">Nick Smith</p>
-                    <p className="review__user-date">Feb 23rd, 2017</p>
+                    <p className="review__user-date">Aug 23rd, 2020</p>
                   </div>
                   <div className="review__rating">7.8</div>
                 </figcaption>
@@ -208,7 +209,7 @@ function App() {
                   <img src={User2} alt="User 2" className="review__photo" />
                   <div className="review__user-box">
                     <p className="review__user-name">Mary Thomas</p>
-                    <p className="review__user-date">Sept 13th, 2017</p>
+                    <p className="review__user-date">Aug 13th, 2020</p>
                   </div>
                   <div className="review__rating">9.3</div>
                 </figcaption>
